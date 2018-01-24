@@ -21,7 +21,7 @@ body {
 .status-bar {
   width: 100%;
 	height: 24px;
-	background-image: url('../Images/Status Bar.png');
+	background-image: url('../Images/Statusbar.png');
 }
 
 nav {
