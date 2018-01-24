@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: ;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 450;
+	margin: 0 auto;
+	color: #212121;
+}
+
+.container {
+	background-color: #212121;
+	margin: 0 auto;
+	width: 360px;
+	height: 625px;
+}
+
+.status-bar {
+  width: 100%;
+	height: 24px;
+	background-image: url('../Images/Status Bar.png');
+}
+
+nav {
+	width: 100%;
+	height: 45px;
+	background-color: #3F51B5;
+	padding-top: 4%;
+}
+
+.hamburger-button {
+	display: inline-block;
+	float: left;
+	color: #FFFFFF;
+	margin-left: 16px;
+	position: absolute;
+}
+
+.star-button {
+  display: inline-block;
+	float: right;
+	color: #FFFFFF;
+	margin-left: 328px;
+	position: absolute;
+}
+
+.search-button {
+  display: inline-block;
+	float: right;
+	color: #FFFFFF;
+	margin-left: 280px;
+	position: absolute;
+}
+
+h1 {
+	margin-left: 72px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.stop-routes {
+	overflow: scroll;
+	height: 580px;
+	background-color: #FFFFFF;
+}
+
+.direction {
+	width: 100%;
+	height: 2px;
+	background-color: #3F51B5;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+h3 {
+	padding-top: 8px;
+  color: #212121;
+  text-transform: uppercase;
+	font-weight: 450;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+  padding-left: 16px;
+}
+
+.route-listing {
+	width: 360px;
+  height: 56px;
+}
+
+.route-number {
+  box-sizing: content-box;
+	height: 44px;
+  width: 51px;
+  margin: 8px 0px 8px 16px;
+	display: inline-block;
+	float: bottom;
+}
+
+h4 {
+  padding-top: 15px;
+  color: #212121;
+  font-size: 24px;
+}
+
+.route-name {
+	display: inline-block;
+	font-size: 0.8em;
+	letter-spacing: 0.05em;
+  padding: 5px 0px 5px 0px;
+	line-height: 1.2em;
+}
+
+.alert {
+	display: inline-block;
+	float: right;
+  padding: 28px 16px 0 0;
+	text-align: right;
+	color: #212121;
+}
+
+.frequency {
+	display: inline-block;
+	float:  right;
+  padding: 24px 16px 0 0;
+  width:30%;
+	text-align: right;
+}
+
+h6 {
+	display: inline;
+	font-size: 12px;
+  color: #212121;
+}
+
+h6 em {
+  font-size: 24px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #FFFFFF;
+    margin left: 16px;
+    padding: 0;
+}
+
+.bottom-navbar {
+  width: 100%;
+	height: 45px;
+	background-image: url('../Images/Navbar.png');
+
+}
